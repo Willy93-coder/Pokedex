@@ -1,14 +1,18 @@
 /* @RESET */
 /* ********** */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
+}
+
+select {
+    text-transform: capitalize;
 }
