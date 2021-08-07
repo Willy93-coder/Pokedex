@@ -24,6 +24,15 @@ main {
         font-size: 1.2rem;
         border: 1px solid black;
         border-radius: 10px;
-        width: 25vw;
+        width: 50vw;
+    }
+}
+
+// MEDIA QUERYS DESKTOP
+@media only screen and (min-width: 700px) {
+    .card {
+        &__pokemon{
+            width: 25vw;
+        }
     }
 }
