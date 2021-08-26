@@ -7,7 +7,7 @@ export async function getData(url_api) {
     };
 };
 
-export function fillSelect(arrayData, select, pokeCard) {
+export function fillSelect(arrayData, select) {
     arrayData.forEach(data => {
         const option = document.createElement('option');
         option.text = data.name;
@@ -15,7 +15,7 @@ export function fillSelect(arrayData, select, pokeCard) {
         const id = data.id;
         const name = data.name;
         const sprite = data.sprites.front_default;
-        const type = data.types.map((type) => type.type.name).join(', ')
+        const type = data.types.map((type) => type.type.name).join(', ');
         const card = `<img class = "sprites" src = "${sprite}"/>
         <p class = "information">${id} ${name}</p>
         <p class = "types">type: ${type}</p>`;

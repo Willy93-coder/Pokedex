@@ -15,7 +15,7 @@ function pokemonUrl() {
     }
     Promise.all(url)
     .then(results => {
-        fillSelect(results, pokemonList, pokemonCard);
+        fillSelect(results, pokemonList);
         pokemonPrint();
     })
 }
