@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pokedex</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        <script src="./js/prueba.js" type="module" async></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <section>
+                <img src="./img/svg/logo_pokemon.svg" alt="logo de pokémon" class="logo">
+            </section>
+        </header>
+        <!-- MAIN -->
+        <main>
+            <div class="card" id="app" >
+                <input list="selectPokemon">
+                <datalist id="selectPokemon"></datalist>
+                <!-- <select name="pokemons" id="selectPokemon" class="card__list">
+                </select> -->
+                <div id="pokemonCard" class="card__pokemon"></div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+        </footer>
+        
+    </body>
+</html>

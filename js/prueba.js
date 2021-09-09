@@ -23,7 +23,7 @@ const home = async () => {
         pokemons.results.forEach(pokemon => {
             const option = document.createElement('option');
             option.text = pokemon.name;
-            option.value = pokemon.url;
+            option.dataset.value = pokemon.url;
             select.appendChild(option);
         });
     };
@@ -43,7 +43,7 @@ const getDataPokemon = async (value) => {
 };
 
 const pokemonPrint = async () => {
-    let pokemonSelected = select.value;
+    let pokemonSelected = value;
     const urlPokemon = pokemonSelected;
     const pokemonData = await getDataPokemon(urlPokemon);
     // console.log(pokemonData)
