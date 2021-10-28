@@ -1,7 +1,6 @@
 # Pokedex
 
-### Plantilla pensada para hacer un Fork
-(Concepto Plantilla/Template)
+### Proyecto de listado de pokemons a través de un select y llamados a la api "https://pokeapi.co/".
 
 __Tecnología integrada__
 - HTML5
