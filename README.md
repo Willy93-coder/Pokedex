@@ -11,3 +11,6 @@ __Tecnología integrada__
 - Normalize + reset
 - Sass
 - JavaScript
+
+##Enlace para ver la aplicación
+https://willy93-coder.github.io/Pokedex/
