@@ -12,5 +12,5 @@ __Tecnología integrada__
 - Sass
 - JavaScript
 
-##Enlace para ver la aplicación
+## Enlace para ver la aplicación
 https://willy93-coder.github.io/Pokedex/
